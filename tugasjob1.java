@@ -14,7 +14,7 @@ public class tugasjob1 {
     sisaCicilan=harga-uangMuka;
     totalBunga=sisaCicilan*(bunga*bulan);
     totalBayar=sisaCicilan+totalBunga;
-    totalBayar=totalBayar/bulan;
+    totalBayar /= bulan;
     System.out.println("Sisa yang harus dibayar : " + totalBayar);
   }
 }
