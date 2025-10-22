@@ -39,6 +39,7 @@ public class Siakadwhile01 {
 
       i++;
     }
+    
     sc.close();
 }
 }
