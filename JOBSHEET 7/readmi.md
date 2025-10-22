@@ -1,4 +1,4 @@
-PERTANYAAN PERCOBAAN !
+======JAWABAN PERCOBAAN ! ========
 
 1. for ( int i = 1; i <=10; i++) {
 
@@ -9,7 +9,7 @@ PERTANYAAN PERCOBAAN !
 
 3. untuk menghitung nilai tertinggi.Dengan cara jika menginptkan nilai 50 dan 30.Jika yang diinputkan pertama 50 maka nilai 50 > tertinggi=0 maka akan jadi nilai tertinggi= 50.Kemudian kita inputkan angka kedua maka 30 > tertinggi=50.Karena 30 < 50 ,maka nilai tertinggi tetap 50.Nilai terendah Dengan cara jika menginptkan nilai 50 dan 30.Jika yang diinputkan pertama 50 maka nilai 50 < tertinggi=100 maka akan jadi nilai terendah= 50.Kemudian kita inputkan angka kedua maka 30 < terendah=50.Karena 50 > 30 ,maka nilai terendah gaanti 30
 
-PERTANYAAN PERCOBAAN 2
+======= JAWABAN PERCOBAAN 2 ========
 
 1. a) jika nilai yang kita inputkan <0 atau >100 maka akan terjadi output "Nilai yang dimasukkan tidak valid!"
    b) continue untuk menghentikan eksekusi sisa blok loop saat ini dan langsung melompat ke pengecekan kondisi loop untuk iterasi berikutnya.
@@ -18,7 +18,7 @@ PERTANYAAN PERCOBAAN 2
 
 3. 19 kali
 
-JAWABAN PERCOBAAN 3
+======= JAWABAN PERCOBAAN 3 ====
 
 1. 0 KALI
 
