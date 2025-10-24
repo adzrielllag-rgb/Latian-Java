@@ -7,8 +7,34 @@ public class TUGAS01 {
     double hargaTiket=50000, totalBayar;
     int jumlahTiket;
 
-    System.out.print("Masukkan jumlah tiket: ");
-    jumlahTiket = sc.nextInt();
-  }
-  
+    do {
+      System.out.print(" jumlah tiket yang terjual hari ini: ");
+      jumlahTiket = sc.nextInt();
+
+      if (jumlahTiket <= 0) {
+    
+        continue;
+      }
+
+      double totalHarga = hargaTiket * jumlahTiket;
+
+      if (jumlahTiket > 4) {
+        if(jumlahTiket > 10) {
+          totalBayar = totalHarga * 0.85;
+        } else {
+          totalBayar = totalHarga * 0.90;
+        }
+      } else {
+        totalBayar = totalHarga;
+      }
+      
+      System.out.println("Total biaya  tiket yang terjual: " + totalBayar);
+      
+      
+    } while (true);
+
+  } 
 }
+  
+  
+
