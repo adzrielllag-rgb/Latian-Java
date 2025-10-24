@@ -15,6 +15,7 @@ public class kafeDoWhile01 {
         System.out.println("Transaksi dibatalkan.");
         break;
       }
+      
       System.out.print("Masukkan jumlah kopi: ");
       kopi = sc.nextInt();
 
