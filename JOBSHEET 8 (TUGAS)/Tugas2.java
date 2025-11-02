@@ -22,13 +22,13 @@ public class Tugas2 {
 
         System.out.println(" Cabang Olahraga: " + cabor2);
         for (j=1; j<=5; j++){
-            System.out.print(" Nama Atlet ke- " + j + "=");
-            namaAtlet = sc.nextLine();
+            System.out.print(" Nama Atlet ke- " + j + "="); 
+            namaAtlet = sc.nextLine(); 
         }
 
-        System.out.println(" Cabang Olahraga: " + cabor3);
+        System.out.println(" Cabang Olahraga: " + cabor3); 
         for (j=1; j<=5; j++){
-            System.out.print(" Nama Atlet ke- " + j + "=");
+            System.out.print(" Nama Atlet ke- " + j + "="); 
           namaAtlet= sc.nextLine();
         }
 
