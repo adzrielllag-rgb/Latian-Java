@@ -9,6 +9,7 @@ public class Tugas2 {
         String cabor1 = "badminton", cabor2 = "tenisMeja", cabor3 = "basket", cabor4 = "voli";
         String namaAtlet="", tambahan;
 
+        
         do {
         System.out.print(" Masukkan nama Politeknik = "); 
         String namaPoliteknik = sc.nextLine();
