@@ -7,7 +7,6 @@ public class TUGAS02 {
     int jenis,total=0;
     int durasi =0;
 
-
     do {
         System.out.print("Pilih Jenis Kendaraan (1. Motor, 2. Mobil, 0. Keluar): ");
 
