@@ -16,7 +16,6 @@ public class Arraynilai01 {
       System.out.println("Nilai akhir ke-" + i + " : " +nilaiAkhir[i]);
     }
 
-    
     sc.close();
     
   }
