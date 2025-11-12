@@ -6,12 +6,12 @@ public class Tugas1_01 {
     Scanner sc = new Scanner(System.in) ;
 
     int jmlNilai[] ;
-    int nilai, total = 0, nilai_tertinggi = 0 , nilai_terendah = 100 ;
+    int nilai, total = 0, jmlInput , nilai_tertinggi = 0 , nilai_terendah = 100 ;
     double rata ;
 
 
     System.out.print("Masukan jumlah nilai yang akan diinput : ");
-    int jmlInput = sc.nextInt() ;
+    jmlInput = sc.nextInt() ;
 
     jmlNilai = new int[jmlInput];
 
