@@ -8,12 +8,12 @@ public class Arraynilai01 {
 
     for (int i = 0; i < 10 ; i++) {
 
-      System.out.print("Masukan nilai akhir ke-" +i+ " : ");
+      System.out.print("Masukan nilai akhir ke-" + i + " : ");
       nilaiAkhir[i] = sc.nextInt();
     }
 
   for (int i = 0; i < 10 ; i++) {
-      System.out.println("Nilai akhir ke-" +i+ " : " +nilaiAkhir[i]);
+      System.out.println("Nilai akhir ke-" + i + " : " +nilaiAkhir[i]);
     }
 
     
