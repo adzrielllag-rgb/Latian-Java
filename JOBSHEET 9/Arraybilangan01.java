@@ -12,6 +12,7 @@ public class Arraybilangan01 {
     bil[2] = -7 ;
     bil[3] = 17 ;
 
+    
     System.out.println(bil[0]);
     System.out.println(bil[1]);
     System.out.println(bil[2]);
