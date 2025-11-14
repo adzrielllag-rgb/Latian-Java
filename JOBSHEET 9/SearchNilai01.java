@@ -27,17 +27,13 @@ public class SearchNilai01 {
       if (key == arrNilai[i]) {
         hasil = i ;
         
-        
         System.out.println("Nilai " +key + ", merupakan nilai mahasiswa  ke-" +hasil);
- 
-      
-
     }
     
 
   }
 
-
+System.out.println("Nilai yang dicari tidak ditemukan") ;
   
 }
 }
