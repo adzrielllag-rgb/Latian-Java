@@ -33,7 +33,7 @@ public class Tugas2_01 {
 
     for (int i = 0; i < jmlMakanan ; i++) {
       System.out.print("Masukan nama makanan ke-" + i + " : ");
-      makanan[i] = sc.next() ;
+      makanan[i] = sc.nextLine() ;
 
       System.out.print("Masukan harga makanan     : Rp.");
       harga[i] = sc.nextDouble() ;
@@ -43,7 +43,7 @@ public class Tugas2_01 {
 
      for (int i = 0; i < jmlMinuman ; i++) {
        System.out.print("Masukan nama minuman ke-" + i + " : ");
-       minuman[i] = sc.next() ;
+       minuman[i] = sc.nextLine() ;
 
        System.out.print("Masukan harga minuman     : Rp.");
        harga1[i] = sc.nextDouble() ;
