@@ -30,6 +30,19 @@ public class Siakad01 {
 
   }
 
+  System.out.println("\n====================================") ;
+  System.out.println("Rata-rata nilai setiap mata kuliah: ") ; 
+
+  for ( int j = 0 ; j < 3 ; j++ ) {
+    double totalPerMataKuliah = 0 ;
+
+    for ( int i = 0 ; i < 4 ; i++ ) {
+      totalPerMataKuliah += nilai[i][j] ;
+    }
+
+    System.out.println("Mata kuliah ke" + (j+1) + " : " + totalPerMataKuliah/4 ) ;
+  }
+
   sc.close();
  }
 } 
