@@ -27,7 +27,7 @@ public class BioskopWithScanner01 {
         break ;
       }
     }
-
+    sc.close() ;
   }
   
 }
