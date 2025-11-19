@@ -37,6 +37,10 @@ public class BIoskop01 {
     for (int i = 0 ; i < penonton[2].length ; i++ ) {
       System.out.println(penonton[2][i] ) ;
     }
+
+    for (int = 0 ; i < penonton.length ; i++ ) {
+      System.out.println("Penonton pada baris le-" + (i+1) + " : " + String.join(" ", penonton[i]) ) ;
+    }
   }
 }  
 
