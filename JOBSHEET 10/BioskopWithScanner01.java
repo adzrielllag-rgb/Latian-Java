@@ -6,7 +6,7 @@ public class BioskopWithScanner01 {
     Scanner sc = new Scanner(System.in) ;
     
     String[][] penonton = new String[4][2];
-    int menu, baris, kolom;
+    int pilih, baris, kolom;
     String nama;
 
         while (true) {
@@ -15,10 +15,10 @@ public class BioskopWithScanner01 {
             System.out.println("2. Tampilkan daftar penonton");
             System.out.println("3. Exit");
             System.out.print("Pilih menu: ");
-            menu = sc.nextInt();
+            pilih = sc.nextInt();
             sc.nextLine();
 
-            if (menu == 1) {
+            if (pilih == 1) {
                 System.out.print("Masukkan Nama : ");
                 nama = sc.nextLine();
 
@@ -48,7 +48,7 @@ public class BioskopWithScanner01 {
                 System.out.println("Data berhasil disimpan!");
 
             } 
-            else if (menu == 2) {
+            else if (pilih == 2) {
                 System.out.println("\n------ Daftar Penonton -------");
                 for (int j = 0; j < penonton.length; j++) {
                     for (int k = 0; k < penonton[j].length; k++) {
