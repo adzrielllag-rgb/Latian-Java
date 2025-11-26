@@ -1,0 +1,16 @@
+======= JAWABAN PERCOBAAN 1 =========
+
+======= JAWABAN PERCOBAAN 2 =========
+
+1. untuk membuat varieabel dalam fungsi.Misal(String namaPelanggan, boolean isMember) , sama seperti deklarasi varieabel
+2. parameter namaPelanggan untuk mengisi nama pada System.out.println("Selamat datang " + namaPelanggan + "!").
+   parameter isMember untuk menentukan benar atau salah pada if(isMember) {}.Karena isMember bertipe boolean (hanya bisa bernilai true atau false)
+3. hampir sama bedanya parameter hanya dapat dideklarasikan di dalam fungsi
+4. Parameter isMember adalah variabel berjenis boolean yang dideklarasikan dalam fungsi dan boolean hanya bernilai benar atau salah ,maka jika kondisi bernilai benar akan menginputkan System.out.println("Anda adalah member, dapatlan dislon 10% untuk setiap pembelian!"). Jika kondisi bernilai salah maka tidak menginputkan apapun atau proses System.out.println("Anda adalah member, dapatlan dislon 10% untuk setiap pembelian!") dilewati
+5. akan terjadi error
+6. menu("Budi", true , "DISKON30")
+7. Ya, penggunaan parameter namaPelanggan dan isMember pada fungsi menu() sangat membuat program lebih mudah dibaca dan dikembangkan, dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi.
+
+======= JAWABAN PERCOBAAN 3 =========
+
+======= JAWABAN PERCOBAAN 4 =========
