@@ -5,7 +5,7 @@ public class Siakad01 {
     
     Scanner sc = new Scanner(System.in) ;
 
-    int nilai[][] = new int [][] ;
+    int nilai[][];
 
     System.out.print("Masukkan jumlah mahasiswa: ") ;
     int mhs = sc.nextInt() ;
@@ -25,19 +25,15 @@ public class Siakad01 {
       }
     }
 
-    for (int i = 0 ; i < nilai.length ; i ++) {
-      System.out.println("input mahasiswa ke-" + (i+1) ) ;
-      double totalPerSiswa = 0 ;
-
-      for ( int j = 0 ; j < nilai[i].length ; j++ ) {
-        System.out.print("nilai mata kuliah ke-" + (j+1) + " : "  ) ;
-        nilai[i][j] = sc.nextInt() ; 
-        totalPerSiswa += nilai[i][j] ; 
+    for (int i = 0; i < nilai.length; i++) {
+      System.out.println("Mahasiswa ke-" + (i + 1));
+      double totalPerSiswa = 0;
+      
+      for (int j = 0; j < nilai[i].length; j++) {
+        totalPerSiswa += nilai[i][j];
+      }
+      System.out.println("Nilai Rata-rata: " + (totalPerSiswa / nilai[i].length));
     }
-    
-    System.out.println("Nilai Rata-rata; "+ totalPerSiswa/nilai[i].length ) ;
-
-  }
 
   System.out.println("\n====================================") ;
   System.out.println("Rata-rata nilai setiap mata kuliah: ") ; 
