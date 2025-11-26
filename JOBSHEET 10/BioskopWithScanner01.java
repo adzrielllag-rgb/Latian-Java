@@ -59,6 +59,10 @@ public class BioskopWithScanner01 {
                 }
 
             } 
+            else if (pilih == 3) {
+                System.out.println("Terima kasih telah menggunakan program ini.");
+                break;
+            } 
         }
     }
 }
