@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class tugas001 {
   public static void main(String[] args) {
     
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in); 
     
     int[][] survei = new int[10][6];  
     String[] namaResponden = new String[10];

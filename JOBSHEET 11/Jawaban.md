@@ -25,4 +25,6 @@
 
 ======= JAWABAN PERCOBAAN 3 =========
 
+1.
+
 ======= JAWABAN PERCOBAAN 4 =========
