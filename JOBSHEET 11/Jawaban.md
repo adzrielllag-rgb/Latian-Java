@@ -1,5 +1,17 @@
 ======= JAWABAN PERCOBAAN 1 =========
 
+1. Tidak , bisa juga menggunakan return
+2. bisa
+3. - menggunakan kembali kode
+   - mudah diubah
+   - mudah dibaca
+   - lwbih fleksibel
+4. 1. Program dijalankan → main() dieksekusi
+   2. Saat menemukan Menu(); → kontrol "melompat" ke fungsi Menu()
+   3. Kode di Menu() dijalankan → menu ditampilkan
+   4. Fungsi Menu() selesai → kontrol kembali ke main()
+   5. Melanjutkan sisa kode di main() hingga program berakhir
+
 ======= JAWABAN PERCOBAAN 2 =========
 
 1. untuk membuat varieabel dalam fungsi.Misal(String namaPelanggan, boolean isMember) , sama seperti deklarasi varieabel
