@@ -35,6 +35,10 @@
 ======= JAWABAN PERCOBAAN 4 =========
 
 1. untuk menerima nol atau lebih statement (parameter)
+2. Aturan di Java hanya memperbolehkan maksimal satu parameter Varargs
+   dalam satu metode, dan parameter Varargs tersebut harus diletakkan di posisi terakhir dalam daftar parameter metode.
+   contoh = static void menu(String...macam , int banyak)
+3. akan terjadi error saat kompilasi
 
 ======= JAAWABAN PERCOBAAN 5 =========
 
