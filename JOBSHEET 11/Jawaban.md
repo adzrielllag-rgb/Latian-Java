@@ -25,6 +25,15 @@
 
 ======= JAWABAN PERCOBAAN 3 =========
 
-1.
+1. Kapan perlu Menggunakan Nilai Kembalian ?
+   Digunakan saat fungsi bertugas menghitung atau menghasilkan data.
+   Kapan Tidak Perlu Menggunakan Nilai Kembalian ?
+   Digunakan saat fungsi bertugas melakukan aksi tanpa perlu mengirimkan hasil perhitungan.
+2. parameter int pilihmenu berfungsi untuk memilih menu yang ada di dalam array.
+   parameter int banyakItems berfungsi untuk menentukan banyaknya menu
 
 ======= JAWABAN PERCOBAAN 4 =========
+
+1. untuk menerima nol atau lebih statement (parameter)
+
+======= JAAWABAN PERCOBAAN 5 =========
