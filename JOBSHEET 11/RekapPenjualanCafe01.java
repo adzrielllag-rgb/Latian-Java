@@ -89,6 +89,6 @@ public class RekapPenjualanCafe01 {
 
         RataRata(penjualan);
 
-        sc.close();
+     sc.close();
     }
 }
