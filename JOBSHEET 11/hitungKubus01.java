@@ -16,15 +16,17 @@ public class hitungKubus01 {
 
         int r, L, vol;
       
-        System.out.println("Masukkan panjang");
+        System.out.print("Masukkan panjang rusuk");
         r = input.nextInt();
+
+        System.out.println();
       
         L = hitungLuasP(r);
-        System.out.println("Luas Persegi Panjang adalah " + L);
+        System.out.println("Luas Permukaan Kubus adalah " + L);
 
       
         vol = hitungVolume(r);
-        System.out.println("Volume Balok adalah " + vol);
+        System.out.println("Volume Kubus adalah " + vol);
 
         input.close();
     }
