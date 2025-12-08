@@ -44,7 +44,7 @@ public class RekapPenjualanCafe01 {
 
         int penTertinggi = 0;
         int totalTerbaik = 0;
-
+        
         for (int i = 0; i < penjualan.length; i++) {
             int sum = 0;
             for (int d = 0; d < penjualan[i].length; d++)
@@ -76,8 +76,8 @@ public class RekapPenjualanCafe01 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        final int menu = Menu.length;
-        final int hari = 7;
+         int menu = Menu.length;
+         int hari = 7;
 
         int[][] penjualan = new int[menu][hari];
 
