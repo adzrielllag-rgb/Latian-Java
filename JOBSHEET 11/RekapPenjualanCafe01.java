@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class RekapPenjualanCafe01 {
 
-    static final String[] Menu = { "Kopi", "Teh", "Es Kelmud", "Roti Bakar", "Gorengan"};
+    static String[] Menu = { "Kopi", "Teh", "Es Kelmud", "Roti Bakar", "Gorengan"};
     static Scanner sc = new Scanner(System.in);
 
     static void Penjualan(int[][] penjualan) {
