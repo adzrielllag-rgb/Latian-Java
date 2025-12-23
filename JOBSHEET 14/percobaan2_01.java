@@ -9,6 +9,16 @@ public class percobaan2_01 {
     } 
   }
   
+  static void cetakDeret(int x, int y) {
+    int hasil = hitungpangkat(x, y);
+    StringBuilder sb = new StringBuilder();
+    for (int i = 0; i < y; i++) {
+      sb.append(x).append("x");
+    }
+    sb.append("1 = ").append(hasil);
+    System.out.println(sb.toString());
+  }
+  
 
   public static void main(String[] args) {
   
@@ -21,7 +31,7 @@ public class percobaan2_01 {
     System.out.print("Pangkat :");
     pangkat = sc.nextInt();
 
-    System.out.println(hitungpangkat(bilangan,pangkat)) ;
+    cetakDeret(bilangan, pangkat);
     
     sc.close();
   }
